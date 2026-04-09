@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package ExercícioGeral;
+
 import java.util.Scanner;
 
 public class Main {

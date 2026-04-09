@@ -1,3 +1,5 @@
+package ExercícioGeral;
+
 public class Veiculo {
     String placa;
     String marca;

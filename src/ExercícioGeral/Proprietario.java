@@ -1,3 +1,5 @@
+package ExercícioGeral;
+
 public class Proprietario {
     long cpf;
     String nome;
