@@ -25,4 +25,32 @@ public class Carga {
     public void setDestino(){
         this.destino = destino;
     }
+
+    public String getDados(){
+     String aux="";
+
+     aux += "Id:" + id + "\n";
+     aux += "Destino:" + destino + "\n";
+     aux += "Peso:" + peso + "kg\n";
+     aux += "Cliente" + cliente.getDados();
+     return aux;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+
+    public double getPeso(){
+        return peso;
+    }
+
+    public void setDestino(String destino){
+        this.destino = destino;
+    }
+
+    public void setPeso(double peso) {
+        this.peso =peso;
+    }
+
 }

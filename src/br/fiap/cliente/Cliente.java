@@ -24,4 +24,12 @@ public class Cliente {
     public void setCnpj(int cnpj) {
         this.cnpj = cnpj;
     }
+
+    public String getDados(){
+        String aux = "";
+
+        aux += "CNPJ" + cnpj + "\n";
+        aux += "Cliente" + cliente + "\n";
+        return aux;
+    }
 }
